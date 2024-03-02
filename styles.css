@@ -9,7 +9,7 @@
     justify-content: space-between;
     padding: 0 30px;
     height: 60px;
-    border-bottom: 1px solid rgb(179, 170, 170);
+    /* border-bottom: 1px solid rgb(179, 170, 170); */
     font-size: 12px;
 }
 .logo{
@@ -79,9 +79,26 @@
 }
 
 .title{
-    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     text-align: center;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    height: 20vh;
+    border: 1px solid rgb(179, 170, 170);
+    background: linear-gradient(rgb(2,234,205), gray);
+    .top{
+        color: green;
+    } 
+    .bottom{
+        img{
+            width: 90px;
+            height: 15vh;
+            object-fit: cover;
+            margin-top: 5px;
+        }
+    }
 }
 .products{
     display: flex;    
@@ -120,6 +137,6 @@
     gap: 5px;
 }
 .footer-div{
-    background-color: rgb(92, 72, 92);
+    background: linear-gradient(rgb(2,234,205), gray); 
     height: 30vh;
 }
