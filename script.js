@@ -105,6 +105,6 @@ document.querySelectorAll('.js-add-to-cart')
 
             document.querySelector('.js-quantity').innerHTML = cartQuantity;
             console.log(cartQuantity);
-            console.log(cart);
+            
         });
     });
