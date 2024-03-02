@@ -10,6 +10,7 @@
     padding: 0 30px;
     height: 60px;
     border-bottom: 1px solid rgb(179, 170, 170);
+    font-size: 12px;
 }
 .logo{
     flex: 1;
@@ -29,28 +30,39 @@
     align-items: center;
     justify-content: right;
     flex: 1;
-    ul{
-        list-style: none;
-        li{
-            display: inline;
-            margin-left: 10px;
-            padding: 5px;
-            &:hover{
-                cursor: pointer;
-                background-color: orange;
-                text-decoration: underline;
+    .links{
+        ul{
+            list-style: none;
+            li{
+                display: inline;
+                margin-left: 10px;
+                padding: 5px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: orange;
+                    text-decoration: underline;
+                }
             }
         }
     }
-    img{
-        width: 40px;
-        height: 40px;
-        margin-left: 10px;
-        &:hover{
-            cursor: pointer;
+    .cart{
+        position: relative;
+        img{
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            &:hover{
+                cursor: pointer;
+            }
         }
-    }
+        span{
+            position: absolute;
+            font-size: 14px;
+        }
+    }   
+    
 }
+
 .title{
     color: green;
     text-align: center;

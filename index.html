@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,57 +16,22 @@
             <button>Go</button>
         </div>
         <div class="add">
-            <ul>
-                <li>Your Account</li>
-                <li>Help </li>
-            </ul>
-            <img src="./images/cart.jpeg" />
+            <div class="links">
+                <ul>
+                    <li>My Account</li>
+                    <li>Help </li>
+                </ul>
+            </div>
+            <div class="cart">
+                <img src="./images/cart.jpeg" />
+                <span class="js-quantity">0</span>
+            </div>            
         </div>
     </div>
     <div class="title"><h3>Your New Shopping Experience!</h3></div>
-    <div class="products">    
-        <div class="product">
-            <img src="./images/shoe1.jpeg" />
-            <p>Rubber shoes</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/shoe2.jpeg" />
-            <p>MasterCard</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/shoe3.jpeg" />
-            <p>Visa</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/bag1.jpeg" />
-            <p>Paypal</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/bag4.jpeg" />
-            <p>Skrill</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/bag2.jpeg" />
-            <p>Skrill</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/bag3.jpeg" />
-            <p>Paypal</p>
-            <button>Add To Cart</button>
-        </div>
-        <div class="product">
-            <img src="./images/bag4.jpeg" />
-            <p>Skrill</p>
-            <button>Add To Cart</button>
-        </div>
+    <div class="products js-products">  
     </div>       
-    
+    <script src="data/cart.js"></script>
     <script src="script.js"></script>
 </body>
 <footer class="footer-div">
