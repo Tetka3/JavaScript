@@ -187,3 +187,17 @@
         }
     }
 }
+.cart-product{
+    display: flex;
+    height: 70vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    .left{
+        flex: 2;
+    }
+    .right{
+        flex: 1;
+        border-left: 1px solid rgb(197, 191, 191);
+    }
+}
