@@ -187,17 +187,27 @@
         }
     }
 }
-.cart-product{
+.cart{
     display: flex;
-    height: 70vh;
-    margin-top: 20px;
-    margin-bottom: 40px;
     padding: 20px;
-    .left{
-        flex: 2;
-    }
+    gap: 10px;
+    .cart-product{
+        display: flex;
+        flex-direction: column;
+        flex: 2; 
+        gap: 10px;    
+        
+        .left{
+            border: 1px solid rgb(204, 197, 197);
+            border-radius: 5px;
+
+        }
+    }   
     .right{
         flex: 1;
-        border-left: 1px solid rgb(197, 191, 191);
+        border: 1px solid rgb(204, 197, 197);
+        border-radius: 5px;
     }
+
+    
 }
