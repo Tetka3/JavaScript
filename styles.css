@@ -1,7 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica; 
+    margin: 0;    
+    font-family: Helvetica;     
 }
 .nav-bar{
     display: flex;
@@ -86,9 +85,11 @@
     text-align: center;
     height: 20vh;
     border: 1px solid rgb(179, 170, 170);
-    background: linear-gradient(rgb(2,234,205), gray);
+    background-image: url("./images/title4.jpeg");
+    /* background: linear-gradient(rgb(2,234,205), gray); */
+    /* background-color: rgb(210,239,239); */
     .top{
-        color: green;
+        color: white;   
     } 
     .bottom{
         transition: all 0.3s ease;
@@ -144,7 +145,9 @@
     gap: 5px;
 }
 .footer-div{
-    background: linear-gradient(rgb(2,234,205), gray); 
+    /* background: linear-gradient(rgb(2,234,205), gray); */
+    /* background-image: url("./images/title3.jpeg");  */
+    background-color: rgb(213,213,213);
     height: 30vh;
     display: flex;
     flex-direction: column;
