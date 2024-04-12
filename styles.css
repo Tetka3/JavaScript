@@ -9,13 +9,16 @@
     padding: 0 30px;
     height: 60px;
     font-size: 12px;
+    background-color: purple;
+    color: white;
 }
 .logo{
     flex: 1;    
 }
 .logo img{
     width: 60px;
-    height: 50px;    
+    height: 40px; 
+    border-radius: 5px;   
 }
 .logo img:hover{
     cursor: pointer;
@@ -30,7 +33,7 @@
     flex: 1;    
 }
 .links ul{
-        list-style: none;
+    list-style: none;
 }
 .links ul li{
     display: inline;
@@ -43,8 +46,8 @@
     text-decoration: underline;
 }
 .cart{
-        display: flex;
-        position: relative;    
+    display: flex;
+    position: relative;    
 }
 .cart :hover{
     cursor: pointer;
@@ -52,8 +55,9 @@
 }
 .cart img{
     width: 40px;
-    height: 40px;
+    height: 30px;
     margin-left: 10px;
+    border-radius: 5px;
 }
 .cart img:hover{
     cursor: pointer;
@@ -63,6 +67,7 @@
     position: absolute;
     font-size: 14px;
     text-align: center;
+    align-items: center;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -77,13 +82,16 @@
     text-align: center;
     height: 20vh;
     border: 1px solid rgb(179, 170, 170);
-    background-image: url("./images/title4.jpeg");
+    background-color: rgb(59, 54, 54);
+   
 }   
 .top{
     color: white;   
 }    
 .bottom{
-    transition: all 0.3s ease;              
+    color: gold;
+    font-style: italic;
+    margin-top: 20px;            
         
 }
 .bottom img{
@@ -141,17 +149,18 @@
     gap: 5px;
 }
 .footer-div{
-    background-color: rgb(213,213,213);
+    background-color: rgb(24, 21, 21);
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    color: gold;
     
 }
 .top{
     display: flex;
-    color: black;
+    color: white;
 }
 .top-left{
     flex: 1;
@@ -171,12 +180,12 @@
     flex: 1;
 }
 .bottom{
-        display: flex;
-        margin-bottom: 20px;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
         
 }
 .bottom img{
@@ -197,10 +206,10 @@
     gap: 10px;
 }
 .cart-product{
-        display: flex;
-        flex-direction: column;
-        flex: 2; 
-        gap: 10px; 
+    display: flex;
+    flex-direction: column;
+    flex: 2; 
+    gap: 10px; 
 }   
 .left{
     border: 1px solid rgb(204, 197, 197);
@@ -237,10 +246,10 @@
     margin-top: 10px;
 }                     
 .right{
-        flex: 1;
-        border: 1px solid rgb(204, 197, 197);
-        border-radius: 5px;
-        padding: 20px;
+    flex: 1;
+    border: 1px solid rgb(204, 197, 197);
+    border-radius: 5px;
+    padding: 20px;
 }
 
  
